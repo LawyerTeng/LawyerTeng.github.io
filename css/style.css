@@ -457,6 +457,16 @@ a:hover { color: var(--gold); }
   border-bottom-color: var(--gold);
 }
 
+.insight-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.insight-link:hover h3 {
+  color: var(--gold);
+}
+
 /* ====== Contact Section ====== */
 .contact {
   padding: var(--section-padding);
