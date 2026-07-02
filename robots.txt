@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+
+# AI Search Engine Crawlers — allowed
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Chinese AI Crawlers
+User-agent: Bytespider
+Allow: /
+
+# No crawl zones
+Disallow: /admin/
+Disallow: /api/
+
+Sitemap: https://fulvquan.cn/sitemap.xml
